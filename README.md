@@ -4,12 +4,10 @@ Artifact of a paper “Commit Artifact Preserving Build Prediction” (ISSTA'24)
 
 ## Dataset
 You can obtain our training and testing data through the following link. 
-The textual features and statistical features are stored separately (.json and .csv). 
+The textual features and statistical features are stored separately (.json and .csv). We also provide the Github commit extraction tool in the /extract_data directory. 
+If you want to extract data by yourself, you can use it following the ReadMe in the /extract_data directory.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10968171.svg)](https://doi.org/10.5281/zenodo.10968171)
-
-We also provide the Github commit extraction tool in the /extract_data directory. 
-If you want to extract data by yourself, you can use it following the ReadMe in the /extract_data directory.
 
 The original data and code to extract important features from the original features are in the /im_features directory. 
 The extracted important features and their descriptions are listed in the feature.csv file.
