@@ -40,8 +40,9 @@ class Trainer():
     def train(self, train_loader, dev_loader):
         for epoch in range(self.args.epoch):
             self.train_epoch(epoch, train_loader)
-        self.eval_epoch(epoch, dev_loader)
             logging.info('Epoch %d finished' % epoch)
+        self.eval_epoch(epoch, dev_loader)
+            
 
     def savemodel(self, k):
         # if not os.path.exists(os.path.join(self.args.savepath, self.args.dataset)):
